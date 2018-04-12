@@ -1,0 +1,46 @@
+html{
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    float: left;
+}
+#icon{
+    height: 96px;
+    width: 96px;
+    float:left;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+#header{
+    background-color: grey;
+}
+nav{
+    background-color: darkgrey;
+    float: left;
+    display: block;
+    height: 42px;
+    width: 100%;
+
+}
+#navUl{
+    list-style: none;
+    margin: 4px;
+}
+.navLink{
+    width: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 24px;
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+    background-color: darkgrey;
+    border: 5px solid darkgrey; 
+}
+.navLink:hover{
+    background-color: #666;
+    border: 5px solid #666; 
+    border-radius: 3px;
+    color: #ddd;
+}
