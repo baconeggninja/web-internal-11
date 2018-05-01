@@ -5,6 +5,12 @@ html{
 h1{
     float: left;
 }
+a{
+    color: #333;
+}
+a:hover{
+    color:green;
+}
 #icon{
     height: 96px;
     width: 96px;
@@ -43,7 +49,7 @@ nav{
     background-color: #666;
     border: 5px solid #666; 
     border-radius: 3px;
-    color: #ddd;
+    color: greenyellow;
 }
 #navLink1{
     margin-left: 37px;
